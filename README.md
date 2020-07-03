@@ -3,9 +3,14 @@ The TinyFPGA BX board is a tiny FPGA board with low cost per logic element and c
 
 ## Table of Contents
 
-* [Team Members](#getting-starteds)
+* [Getting Started](#getting-started)
 * [Specifications](#specifications)
 * [Directory Structure](#directory-structure)
+** [Apio Template](#apio-template)
+** [Icecube2 Template](#icecube2-template)
+** [Icestorm Template](#icestorm-template)
+** [Examples](#examples)
+*** [PicoSOC](#picosoc)
 * [Project Log](#project-logs)
 * [License](#license)
 * [Building your own TinyFPGA BX Board](#build-your-own)
@@ -32,14 +37,21 @@ For full details on the ICE40 series of FPGAs you can read the [ICE40 Family Han
     - 50 ppm stability.
 
 ## <a name="directory-structure"></a>Project Directory Structure
-### board
+### <a name="board"></a>board
 This contains a [KiCad](http://kicad-pcb.org/) project with the schematic and layout of the B-series boards.  The board is designed with 4/4mil track size/spacing and 0.2mm hole size.  BOM list for the BX board is available here as well.
 
-### icecube2_template
+### <a name="apio-template"></a>apio_template
+This is a template for an Apio project. [Apio](https://github.com/FPGAwars/apio) is an open source ecosystem for open FPGA boards.], providing a multiplatform toolbox with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs. Apio is used by [Icestudio](https://github.com/FPGAwars/icestudio).
+
+### <a name="icecube2-template></a>icecube2_template
 This is a template iCEcube2 project for developing your own designs to program onto the board.  It takes care of pin and clock constraints.  Just edit the TinyFPGA_BX.v file to add your designs module(s).
 
-### icestorm_template
+### <a name="icestorm-template"></a>icestorm_template
 This is a template IceStorm project for developing your own designs to program onto the board.  It takes care of pin and clock constraints.  Just edit the TinyFPGA_BX.v file to add your designs module(s).  Use `make` to build your project.
+
+## <a name="examples"></a>Examples
+
+### <a name="picosoc">PicoSOC
 
 ## <a name="project-log"></a>Project Log
 For more information on the development and production of the B-Series please read and follow the [TinyFPGA B-Series Project Page](https://hackaday.io/project/26848-tinyfpga-b-series) at hackaday.io.
