@@ -43,7 +43,7 @@ This contains a [KiCad](http://kicad-pcb.org/) project with the schematic and la
 ### <a name="apio-template"></a>apio_template
 This is a template for an Apio project. [Apio](https://github.com/FPGAwars/apio) is an open source ecosystem for open FPGA boards.], providing a multiplatform toolbox with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs. Apio is used by [Icestudio](https://github.com/FPGAwars/icestudio).
 
-### <a name="icecube2-template></a>icecube2_template
+### <a name="icecube2-template"></a>icecube2_template
 This is a template iCEcube2 project for developing your own designs to program onto the board.  It takes care of pin and clock constraints.  Just edit the TinyFPGA_BX.v file to add your designs module(s).
 
 ### <a name="icestorm-template"></a>icestorm_template
@@ -51,7 +51,8 @@ This is a template IceStorm project for developing your own designs to program o
 
 ## <a name="examples"></a>Examples
 
-### <a name="picosoc">PicoSOC
+### <a name="picosoc"></a>PicoSOC
+A small System-On-Chip including a [RISC-V processor](https://github.com/cliffordwolf/picorv32).
 
 ## <a name="project-log"></a>Project Log
 For more information on the development and production of the B-Series please read and follow the [TinyFPGA B-Series Project Page](https://hackaday.io/project/26848-tinyfpga-b-series) at hackaday.io.
