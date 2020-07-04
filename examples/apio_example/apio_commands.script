@@ -1,0 +1,10 @@
+apio init --board TinyFPGA-BX
+apio verify
+apio build
+apio upload
+# apio clean 
+
+
+
+
+
